@@ -53,9 +53,9 @@ public static async createOrder(orderAmount: string): Promise<string>{
                 method: "POST",
                 body:data,
                 headers: {
-                    "API-KEY": "rpcy9t5fkzyfy3ev79dbkmeypes5cs.service.gcph8@surfboard.service",
-                    "API-SECRET": "urAGXESk953ODdpg3Bebol50spKcHD",
-                    "MERCHANT-ID": "8236764fdf71d0030e",
+                    "API-KEY": "YOUR_API_KEY",
+                    "API-SECRET": "YOUR_API_SECRET",
+                    "MERCHANT-ID": "YOUR_MERCHANT_ID",
                     "Content-Type": "application/json"
                 }
             }
